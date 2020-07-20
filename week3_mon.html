@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="user_id">아이디 : </label>
+    <br/>
+    <input 
+        id = "user_id" 
+        type="text", 
+        name = "userid",
+        placeholder="아이디를 입력해보세요." 
+    />
+    <br/>
+    <br/>
+    <label for="user_pw">비밀번호 : </label>
+    <br/>
+    <input 
+        id = "user_pw",
+        type="password",
+        name = "userpw",
+        placeholder="비밀번호를 입력해보세요." 
+    />
+    <br/>
+    <br/>
+    <br/>
+    <label for="pw_question">좋아하는 취미</label>
+    <select id="pw_question", name="pwquestion">
+        <option value="축구">축구</option>
+        <option value="독서">독서</option>
+        <option value="프로그래밍">프로그래밍</option>
+    </select>
+    <br/>
+    <br/>
+    <br/>
+    <textarea name="content" cols="50", rows="50">
+        자기소개
+    </textarea>
+    <br/>
+    <br/>
+    <button name ="전송" type="submit">
+        전송하기
+    </button>
+</body>
+</html>
