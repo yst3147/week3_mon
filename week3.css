@@ -1,0 +1,45 @@
+label 
+{
+    background-color : black;
+    color : white;
+    font-size : 16px
+}
+
+button
+{
+    width: 100px;
+    height: 20px;
+}
+
+input
+{
+    width: 200px;
+    height: 20px;
+    border-width: 3px 2px;
+}
+.textarea
+{
+    width : 200px;
+    height : 400px;
+    color : blue;
+    border-width: medium;
+}
+
+#user_id
+{
+    color : red;
+}
+
+#user_pw
+{
+    color : white;
+}
+
+#pw_question
+{
+    width: 150px;
+    height: 20px;
+    font-size: 12px;
+    border-width: 3px 2px;
+}
+
